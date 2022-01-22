@@ -1,6 +1,26 @@
 # Javascript-Helper
 
+## Maths and Types
+
+### String to Int
+
+```
+const my_int = parseInt(my_string);
+```
+
+### Exponentiation 
+
+```
+const exponent = base ** power
+```
+
 ## Arrays
+
+### Add value to array
+
+```
+array.push(value);
+```
 
 ### Check if array has duplicates
 
@@ -29,7 +49,31 @@ const section = array.slice(s_x,e_x+1).map(i => i.slice(s_y, e_y+1));
 const filtered_array = array.filter(elem => elem != ".");
 ```
 
+### Flatten the 2-D array
+
+```
+const flat_array = array.flat()
+```
+
 ## Maps
+
+### Create a map
+
+```
+const map = new Map();
+```
+
+### Set value
+
+```
+map.set(key,val);
+```
+
+### Get value
+
+```
+const val = map.get(key);
+```
 
 
 ## Sets
@@ -52,11 +96,7 @@ mySet.add(1)
 mySet.has(1)
 ```
 
-### Flatten the 2-D array
 
-```
-const flat_array = array.flat()
-```
 
 
 
