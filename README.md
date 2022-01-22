@@ -2,6 +2,32 @@
 
 ## Arrays
 
+### Check if array has duplicates
+
+```
+if ((new Set(array)).size !== array.length)
+{
+    const duplicates = true;
+}
+```
+
+### Transpose an 2-D array
+
+```
+const transpose =  array[0].map((col, i) => array.map(row => row[i]));
+```
+
+
+### Find a section of an 2-D array (from s_x to e_x inclusive, from s_y to e_y inclusive)
+```
+const section = array.slice(s_x,e_x+1).map(i => i.slice(s_y, e_y+1));
+```
+
+### Filter out values from the array
+
+``` 
+const filtered_array = array.filter(elem => elem != ".");
+```
 
 ## Maps
 
@@ -10,15 +36,28 @@
 
 ### Creating set
 
-```const mySet = new Set()```
+```
+const mySet = new Set()
+```
 
 ### Adding value to the set
 
-```mySet.add(1)```
+```
+mySet.add(1)
+```
 
 ### Checking if value is in set
 
-```mySet.has(1)```
+```
+mySet.has(1)
+```
+
+### Flatten the 2-D array
+
+```
+const flat_array = array.flat()
+```
+
 
 
 ## Strings
