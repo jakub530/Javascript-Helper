@@ -111,11 +111,28 @@ for(let n=0;n<26;n++)
 } 
 ```
 
+### Templeate litersals
+
+```
+`string text ${expression} string text`
+```
 
 ## Callbacks
 
 
 ## ES6
+
+
+### Promises
+```
+var asyncCall =  new Promise((resolve, reject) => {
+   // do something
+   resolve();
+}).then(()=> {   
+   console.log('DON!');
+})
+```
+
 
 
 
